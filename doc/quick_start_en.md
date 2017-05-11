@@ -9,11 +9,11 @@ We will use two simple demo to demonstrate how to use frp.
 
 ### Download SourceCode
 
-`go get github.com/fatedier/frp` is recommended, then the code will be copied to the directory `$GOPATH/src/github.com/fatedier/frp`.
+`go get github.com/robscc/frp` is recommended, then the code will be copied to the directory `$GOPATH/src/github.com/robscc/frp`.
 
-Or you can use `git clone https://github.com/fatedier/frp.git $GOPATH/src/github.com/fatedier/frp`.
+Or you can use `git clone https://github.com/robscc/frp.git $GOPATH/src/github.com/robscc/frp`.
 
-If you want to try it quickly, download the compiled program and configuration files from [https://github.com/fatedier/frp/releases](https://github.com/fatedier/frp/releases).
+If you want to try it quickly, download the compiled program and configuration files from [https://github.com/robscc/frp/releases](https://github.com/robscc/frp/releases).
 
 ### Compile
 

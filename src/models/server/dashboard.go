@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fatedier/frp/src/assets"
+	"github.com/robscc/frp/src/assets"
 )
 
 var (

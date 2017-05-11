@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fatedier/frp/src/utils/conn"
+	"github.com/robscc/frp/src/utils/conn"
 )
 
 var (

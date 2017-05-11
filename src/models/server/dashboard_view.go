@@ -18,9 +18,9 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/fatedier/frp/src/assets"
-	"github.com/fatedier/frp/src/models/metric"
-	"github.com/fatedier/frp/src/utils/log"
+	"github.com/robscc/frp/src/assets"
+	"github.com/robscc/frp/src/models/metric"
+	"github.com/robscc/frp/src/utils/log"
 )
 
 func viewDashboard(w http.ResponseWriter, r *http.Request) {

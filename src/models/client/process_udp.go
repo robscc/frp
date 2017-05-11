@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/src/models/msg"
-	"github.com/fatedier/frp/src/utils/conn"
-	"github.com/fatedier/frp/src/utils/pool"
+	"github.com/robscc/frp/src/models/msg"
+	"github.com/robscc/frp/src/utils/conn"
+	"github.com/robscc/frp/src/utils/pool"
 )
 
 type UdpProcesser struct {

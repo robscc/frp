@@ -23,9 +23,9 @@ import (
 
 	docopt "github.com/docopt/docopt-go"
 
-	"github.com/fatedier/frp/src/models/client"
-	"github.com/fatedier/frp/src/utils/log"
-	"github.com/fatedier/frp/src/utils/version"
+	"github.com/robscc/frp/src/models/client"
+	"github.com/robscc/frp/src/utils/log"
+	"github.com/robscc/frp/src/utils/version"
 )
 
 var (

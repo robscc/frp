@@ -26,8 +26,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fatedier/frp/src/utils/conn"
-	"github.com/fatedier/frp/src/utils/pool"
+	"github.com/robscc/frp/src/utils/conn"
+	"github.com/robscc/frp/src/utils/pool"
 )
 
 type HttpMuxer struct {
