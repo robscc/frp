@@ -328,7 +328,7 @@ func doLogin(req *msg.ControlReq, c *conn.Conn) (ret int64, info string, s *serv
 		// update metric's proxy status
 		metric.SetProxyInfo(s.Name, s.Type, s.BindAddr, s.UseEncryption, s.UseGzip, s.PrivilegeMode, s.CustomDomains, s.Locations, s.ListenPort)
 
-		// start proxy and listen for user connections, no block
+		// start proxy and listen for user connections, none-block
 		err := s.Start(c)
 		if err != nil {
 			info = fmt.Sprintf("ProxyName [%s], start proxy error: %v", req.ProxyName, err)
